@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-2024/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio-2024/static/js/main.d040e9b2.js",
+    "main.css": "/portfolio-2024/static/css/main.4864873e.css",
+    "main.js": "/portfolio-2024/static/js/main.02b652e5.js",
+    "static/media/AmstelvarAlpha-Variations.woff": "/portfolio-2024/static/media/AmstelvarAlpha-Variations.547fa2f9c2f708b0d6fc.woff",
+    "static/media/AmstelvarAlpha-Variations-noHVAR.woff": "/portfolio-2024/static/media/AmstelvarAlpha-Variations-noHVAR.751d734a28a9ccdff997.woff",
+    "static/media/AmstelvarAlpha-VF.woff": "/portfolio-2024/static/media/AmstelvarAlpha-VF.4bf174bc3ab60f766192.woff",
     "static/media/logo.svg": "/portfolio-2024/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio-2024/index.html",
-    "main.f855e6bc.css.map": "/portfolio-2024/static/css/main.f855e6bc.css.map",
-    "main.d040e9b2.js.map": "/portfolio-2024/static/js/main.d040e9b2.js.map"
+    "main.4864873e.css.map": "/portfolio-2024/static/css/main.4864873e.css.map",
+    "main.02b652e5.js.map": "/portfolio-2024/static/js/main.02b652e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d040e9b2.js"
+    "static/css/main.4864873e.css",
+    "static/js/main.02b652e5.js"
   ]
 }
