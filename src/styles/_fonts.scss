@@ -1,0 +1,27 @@
+// src/styles/fonts.scss
+
+@font-face {
+    font-family: 'AmstelvarAlpha Default';
+    font-style: normal;
+    font-weight: 400; /* Ajusta el peso según corresponda */
+    src: local('AmstelvarAlpha Default'),
+         url('../assets/fonts/AmstelvarAlpha-VF.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'AmstelvarAlpha Default';
+    font-style: normal;
+    font-weight: 400; /* Ajusta el peso según corresponda */
+    src: local('AmstelvarAlpha Default'),
+         url('../assets/fonts/AmstelvarAlpha-Variations-noHVAR.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'AmstelvarAlpha Default';
+    font-style: normal;
+    font-weight: 400; /* Ajusta el peso según corresponda */
+    src: local('AmstelvarAlpha Default'),
+         url('../assets/fonts/AmstelvarAlpha-Variations.woff') format('woff');
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500,600,700;0,500,600,700&display=swap');
