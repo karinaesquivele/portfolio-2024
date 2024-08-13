@@ -1,0 +1,28 @@
+// Importa tus archivos SCSS parciales primero
+@import 'variables'; // Asegúrate de que este archivo esté en la carpeta 'styles'
+@import 'fonts'; // Asegúrate de que este archivo esté en la carpeta 'styles'
+
+// Importa Tailwind CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Estilos globales personalizados
+
+body{
+     font-family: $font-text;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     color: $color-text;
+}
+
+.title{
+     font-family:$font-primary;
+     font-weight:normal;
+     color:$color-title;
+}
+.subtitle{
+     color: $color-accent;
+     font-weight: 700;
+}
