@@ -1,6 +1,12 @@
 // Importa tus archivos SCSS parciales primero
 @import 'variables'; // Asegúrate de que este archivo esté en la carpeta 'styles'
+@import 'mixins';
 @import 'fonts'; // Asegúrate de que este archivo esté en la carpeta 'styles'
+
+//
+@import './organisms/header';
+@import './organisms/footer';
+@import './templates/main-layout';
 
 // Importa Tailwind CSS
 @tailwind base;
@@ -15,6 +21,7 @@ body{
      font-weight: 500;
      font-style: normal;
      color: $color-text;
+     
 }
 
 .title{
