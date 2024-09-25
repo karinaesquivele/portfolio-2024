@@ -1,0 +1,31 @@
+.footer{
+    .separator{
+        border-top: 0;
+        border-bottom: 3px solid $color-accent;
+    }
+
+    .footer__logo-col{
+        img{
+            width: 120px;
+        }
+    }
+    .socials{
+        img{
+            width: 35px;
+        }
+    }
+    .footer-menu{
+        li a{
+            font-size: 16px;
+            font-weight: 800;
+            color: $color-title;
+            text-transform: uppercase;
+        }
+    }
+    .copyright__row{
+        p{
+            font-weight: 700;
+            color: $color-accent;
+        }
+    }
+}
