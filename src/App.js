@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import './styles/global.scss'
-import MainLayout from './components/templates/MainLaout';
+import MainLayout from './components/templates/MainLayout';
 
 function App() {
   return (
