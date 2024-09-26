@@ -4,9 +4,12 @@
 @import 'fonts'; // Asegúrate de que este archivo esté en la carpeta 'styles'
 
 //
+@import './atoms/buttons';
+@import './atoms/typography';
 @import './organisms/header';
 @import './organisms/footer';
 @import './templates/main-layout';
+@import './organisms//banner';
 
 // Importa Tailwind CSS
 @tailwind base;

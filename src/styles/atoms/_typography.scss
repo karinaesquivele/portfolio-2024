@@ -1,0 +1,91 @@
+.super-subtitle,.title{
+  text-transform: uppercase;
+}
+.super-title.super-subtitle,.super-text{
+  text-align: center;
+}
+.super-title {
+    font-size: 42px; // Ajusta según tus necesidades
+    font-family: $font-primary;
+    font-weight: 400;
+    color: $color-title;
+    line-height: initial;
+  }
+  
+  .super-subtitle {
+    font-size: 24px; // Ajusta según tus necesidades
+    font-weight: 700;
+    color: $color-accent;
+  }
+
+  .title {
+    font-size: 20px; // Títulos normales
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 18px; // Subtítulos normales
+  }
+
+  .super-text {
+    font-size: 18px; // Textos principales
+    margin-top: 10px;
+  }
+  .main-text{
+    font-size: 16px;
+  }
+  
+  @include respond-to(xsm) {
+    .super-title {
+      font-size: 45px;
+    }
+    .super-subtitle {
+      font-size: 24px;
+    }
+    .super-text{
+      font-size: 22px;
+    }
+  }
+  
+  @include respond-to(sm) {
+    .super-title {
+      font-size: 54px;
+    }
+    .super-subtitle {
+      font-size: 26px;
+    }
+  }
+  
+  @include respond-to(md) {
+    .super-title {
+      font-size: 54px;
+      text-align: left;
+    }
+    .super-subtitle {
+      font-size: 26px;
+      text-align: left;
+    }
+    .super-text{
+      margin-top: 5px;
+      text-align: left;
+      font-size: 22px;
+    }
+  }
+  
+  @include respond-to(lg) {
+    .super-title {
+      font-size: 64px;
+    }
+    .super-subtitle {
+      font-size: 34px;
+    }
+  }
+  
+  @include respond-to(xl) {
+    .super-title {
+      font-size: 74px;
+    }
+    .super-subtitle {
+      font-size: 40px;
+    }
+  }

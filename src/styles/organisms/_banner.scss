@@ -1,0 +1,15 @@
+.banner{
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    .img__banner{
+        margin-right: -35px;
+        @include respond-to(md){
+            margin-right: 0;
+        }
+    }
+}
