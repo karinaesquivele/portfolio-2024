@@ -1,0 +1,29 @@
+.card{
+    background-color: $color-secondary;
+    
+    .card-image{
+        padding: 10px;
+        img{
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .card-description{
+        min-height: 60px;
+        margin-top: 5px;
+    }
+    .card-buttons{
+        display: flex;
+        max-width: 300px;
+        margin: auto;
+        @include respond-to(md){
+            div button:nth-child(1){
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+.cards-mobile{
+    max-width: 500px;
+    margin: auto;
+}

@@ -1,6 +1,8 @@
 .button {
     text-transform: uppercase;
     display: inline-block;
+    width: 140px;
+
     &--primary {
         background-color: $color-accent;
         border: 2px solid $color-accent;
@@ -27,11 +29,17 @@
         background-color: $color-primary;
         border: 2px solid $color-primary;
         color: $color-accent;
+        
     }
 
     &--sm {
-        font-size: 12px;
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
         padding: 5px 10px;
+        span{
+            font-size: 12px;
+        }
     }
 
     &--md {
@@ -45,9 +53,6 @@
     }
 
     &--disabled {
-        background-color: lightgray;
-        border: 2px solid gray;
-        color: darkgray;
-        cursor: not-allowed;
+        opacity: 0.2;
     }
 }

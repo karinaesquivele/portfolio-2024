@@ -3,6 +3,7 @@ function Typography({ variant, children }) {
                    variant === 'super-subtitle' ? 'h2' :
                    variant === 'main-text' ? 'p' :
                    variant === 'super-text' ? 'p' :
+                   variant === 'card-text' ? 'p' :
                    variant === 'title' ? 'h3' :
                    variant === 'subtitle' ? 'h4' :
                    'span'; // Valor predeterminado para un span

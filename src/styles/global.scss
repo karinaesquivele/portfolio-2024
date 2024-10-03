@@ -6,10 +6,13 @@
 //
 @import './atoms/buttons';
 @import './atoms/typography';
+@import './atoms/icons';
+@import './molecules/card';
 @import './organisms/header';
 @import './organisms/footer';
 @import './templates/main-layout';
-@import './organisms//banner';
+@import './organisms/banner';
+@import './organisms/projects';
 
 // Importa Tailwind CSS
 @tailwind base;
@@ -36,3 +39,12 @@ body{
      color: $color-accent;
      font-weight: 700;
 }
+
+.slider-buttons.default{
+     background-color: #fff;
+   
+   
+ }
+ .slider-buttons.active{
+   background-color: #e40f79;
+ }
