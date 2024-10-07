@@ -4,6 +4,9 @@ import iconFigmalLg from "../../assets/img/technologies/figma.svg";
 //html
 import iconHtml from "../../assets/img/icons/technologies/HTML.svg";
 import iconHtmlLg from "../../assets/img/technologies/html.svg";
+//css
+import iconCss from "../../assets/img/icons/technologies/css.svg";
+import iconCssLg from "../../assets/img/technologies/css.svg";
 // Sass
 import iconSass from "../../assets/img/icons/technologies/SASS.svg";
 import iconSassLg from "../../assets/img/technologies/sass.svg";
@@ -17,7 +20,7 @@ import iconTwd from "../../assets/img/icons/technologies/tailwindcss.svg";
 import iconTwdLg from "../../assets/img/technologies/tailwindcss.svg";
 // JavaScript
 import iconJs from "../../assets/img/icons/technologies/JavaScript.svg";
-import iconJsLg from "../../assets/img/technologies/JavaScript.svg";
+import iconJsLg from "../../assets/img/technologies/javascript-js.svg";
 // React
 import iconReact from "../../assets/img/icons/technologies/react.svg";
 import iconReactLg from "../../assets/img/technologies/react.svg";
@@ -32,6 +35,7 @@ import iconWpLg from "../../assets/img/technologies/wordpress.svg";
 const icons = {
   figma: { sm: iconFigma, lg: iconFigmalLg },
   html: { sm: iconHtml, lg: iconHtmlLg },
+  css : {sm: iconCss, lg: iconCssLg},
   sass: { sm: iconSass, lg: iconSassLg },
   gsap: { sm: iconGsap }, // Si no hay versión "lg", puedes dejar solo "sm"
   bootstrap: { sm: iconBtp, lg: iconBtpLg },

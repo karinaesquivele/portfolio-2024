@@ -6,4 +6,11 @@
             width: 60px;
         }
     }
+    &.lg{
+        
+        max-width: 30px;
+        @include respond-to(sm){
+            max-width: 50px;
+        }
+    }
 }

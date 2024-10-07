@@ -1,0 +1,19 @@
+.technologies{
+    background-image: url('../../assets/img/backgrounds/circle-separator.svg');
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 95%;
+    background-color: $color-secondary;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+    @include respond-to(sm){
+        padding: 40px 10px;
+        padding-bottom: 60px;
+    }
+    @media (max-width:489.67px) {
+        background-size: 50px;
+    }
+    @include respond-to(lg){
+        background-size: 5%;
+    }
+}
