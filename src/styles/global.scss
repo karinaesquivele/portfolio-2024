@@ -7,12 +7,14 @@
 @import './atoms/buttons';
 @import './atoms/typography';
 @import './atoms/icons';
+@import './molecules/lists';
 @import './molecules/card';
 @import './organisms/header';
 @import './organisms/footer';
 @import './templates/main-layout';
 @import './organisms/banner';
 @import './organisms/projects';
+@import './organisms/technologies';
 
 // Importa Tailwind CSS
 @tailwind base;

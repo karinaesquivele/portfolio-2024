@@ -1,0 +1,6 @@
+.list-technology{
+    width: 150px;
+    @include respond-to(sm){
+        width: 200px;
+    }
+}
