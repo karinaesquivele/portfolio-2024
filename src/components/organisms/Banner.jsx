@@ -17,6 +17,11 @@ function Banner({
     applyFadeInAnimation([imgRef.current], bannerRef.current); // Aplicar animación a la imagen
   }, []);
 
+  const goUrl = (url) => {
+    if (url) {
+      window.location.href = url;
+    }
+  };
   return (
     <div ref={bannerRef} className="banner w-full md:w-11/12 md:ml-auto px-5">
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-1">
@@ -26,7 +31,7 @@ function Banner({
             <Typography variant="super-subtitle">{subtitle}</Typography>
             <Typography variant="super-text">{description}</Typography>
             <div className="mt-9 md:mt-5">
-              <Button variant="secondary" size="md">
+              <Button variant="secondary" size="md" onClick={() => goUrl('#contact')}>
                 {buttonText}
               </Button>
             </div>

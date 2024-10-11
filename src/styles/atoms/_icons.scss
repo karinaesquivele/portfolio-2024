@@ -4,6 +4,9 @@
         margin: 6px;
         &.text{
             width: 60px;
+            &.design{
+                width: 30px;
+            }
         }
     }
     &.lg{
@@ -13,4 +16,7 @@
             max-width: 50px;
         }
     }
+}
+.fly{
+    
 }

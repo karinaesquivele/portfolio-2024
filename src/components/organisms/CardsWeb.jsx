@@ -12,6 +12,7 @@ function CardsWeb({ projects = [] }) {
           technologies={project.technology}
           code={project.code}
           preview={project.preview}
+          image={project.image}
         />
       ))}
     </div>

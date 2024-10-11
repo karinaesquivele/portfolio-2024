@@ -1,3 +1,10 @@
+//Ux ui
+import iconUx from "../../assets/img/icons/technologies/UX.svg"
+import iconUi from "../../assets/img/icons/technologies/UI.svg"
+//material
+import iconMatDes from "../../assets/img/icons/technologies/material-design.svg"
+//android
+import iconAndroid from "../../assets/img/icons/technologies/android.svg"
 //figma
 import iconFigma from "../../assets/img/icons/technologies/Figma.svg"
 import iconFigmalLg from "../../assets/img/technologies/figma.svg";
@@ -33,6 +40,10 @@ import iconWpLg from "../../assets/img/technologies/wordpress.svg";
 
 // Objeto de iconos con versiones normal y "lg"
 const icons = {
+  ux:{ sm: iconUx  },
+  ui:{ sm: iconUi },
+  materialD:{ sm: iconMatDes},
+  android:{sm:iconAndroid},
   figma: { sm: iconFigma, lg: iconFigmalLg },
   html: { sm: iconHtml, lg: iconHtmlLg },
   css : {sm: iconCss, lg: iconCssLg},
@@ -49,7 +60,7 @@ const icons = {
 function IconTechnology({ technology = 'html', size = 'sm', type='' }) {
   const iconSet = icons[technology] || {};
   const icon = iconSet[size] || iconSet['sm']; // Si no existe la versión del tamaño, usa 'sm'
-  const iconClass = `icon ${size} ${type==='text' ? 'text' : '' }`;
+  const iconClass = `icon ${size} ${type==='text' ? 'text' : '' } ${technology==='ux' || technology==='ui'? 'design' :''} ${technology==='materialD' ? 'design' :''}`;
   
   return (
     <div className={iconClass}>
