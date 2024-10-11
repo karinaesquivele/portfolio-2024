@@ -1,0 +1,32 @@
+.form-input{
+    outline: 0;
+    padding: 15px 15px;
+    // Estilos para los input
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    &:focus-visible{
+        outline: 0;
+        border: 2px solid $color-text;
+    }
+    &.form-input--error{
+       border: 2px solid $color-accent;
+    }
+}
+input.form-input{
+    height: 55px;
+}
+textarea.form-input{ 
+    height: 150px;
+    resize: none;
+}
+.input-label{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 5px;
+    &.input-label--error{
+        color: $color-accent;
+        text-align: left;
+        
+    }
+}

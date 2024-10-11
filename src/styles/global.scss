@@ -7,6 +7,7 @@
 @import './atoms/buttons';
 @import './atoms/typography';
 @import './atoms/icons';
+@import './atoms/inputs';
 @import './molecules/lists';
 @import './molecules/card';
 @import './organisms/header';
@@ -15,6 +16,7 @@
 @import './organisms/banner';
 @import './organisms/projects';
 @import './organisms/technologies';
+@import './organisms/contact';
 
 // Importa Tailwind CSS
 @tailwind base;
@@ -22,7 +24,9 @@
 @tailwind utilities;
 
 // Estilos globales personalizados
-
+html {
+     scroll-behavior: smooth;
+   }
 body{
      font-family: $font-text;
      font-optical-sizing: auto;

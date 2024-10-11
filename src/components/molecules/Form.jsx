@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../atoms/Button";
 import FormValidator from "../../utils/validations";
 import { postFormData } from "../../utils/api";
 
@@ -13,7 +14,7 @@ function ContactForm() {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    
+
     setFormData({
       ...formData,
       [name]: value,
@@ -54,6 +55,9 @@ function ContactForm() {
           email: "",
           mensaje: "",
         });
+        setInterval(() => {
+          setResponseMessage("");
+        }, 2000);
         setErrors({});
       } catch (error) {
         setResponseMessage("Hubo un error al enviar el formulario.");
@@ -64,36 +68,45 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>Nombre:</label>
         <input
+          className={`form-input ${errors.nombre ? "form-input--error" : ""}`}
           type="text"
           name="nombre"
+          placeholder="Nombre"
           value={formData.nombre}
           onChange={handleInputChange}
         />
-        {errors.nombre && <p>{errors.nombre}</p>}
+        {errors.nombre && <p className="input-label input-label--error">*{errors.nombre}</p>}
       </div>
       <div>
-        <label>Email:</label>
         <input
           type="email"
           name="email"
+          className={`form-input ${errors.nombre ? "form-input--error" : ""}`}
+          placeholder="Email"
           value={formData.email}
           onChange={handleInputChange}
         />
-        {errors.email && <p>{errors.email}</p>}
+        {errors.email && <p className="input-label input-label--error">*{errors.email}</p>}
       </div>
       <div>
-        <label>Mensaje:</label>
         <textarea
           name="mensaje"
+          placeholder="Mensaje"
+          className={`form-input ${errors.nombre ? "form-input--error" : ""}`}
           value={formData.mensaje}
           onChange={handleInputChange}
         />
-        {errors.mensaje && <p>{errors.mensaje}</p>}
+        {errors.mensaje && <p className="input-label input-label--error">*{errors.mensaje}</p>}
       </div>
-      <button type="submit">Enviar</button>
-      {responseMessage && <p>{responseMessage}</p>}
+
+      {/* <button >Enviar</button> */}
+      <div className="mt-5 text-center md:text-right">
+        <Button variant="primary" size="md" type="submit">
+          Enviar
+        </Button>
+      </div>
+      { <p className={`${responseMessage==='Hubo un error al enviar el formulario.' ? "input-label--error" : "input-label"}`}>{responseMessage}</p>}
     </form>
   );
 }

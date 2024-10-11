@@ -2,10 +2,10 @@ import ImageCard from "../atoms/ImageCard";
 import Typography from "../atoms/Typography";
 import ProjectIcons from "./ProjectIcons";
 import ProjectButtons from "./ProjectButtons";
-function ProjectCard({title='Title project',description='Description',technologies={},preview='',code=''}) {
+function ProjectCard({title='Title project',description='Description',technologies={},preview='',code='',image=''}) {
   return (
     <div className="card mx-4 md:mx-2 lg:mx-4 p-5">
-      <ImageCard />
+      <ImageCard file={image} />
       <div className="card-body">
         <Typography variant="subtitle">
           <b className="uppercase">{title}</b>

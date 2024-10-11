@@ -5,10 +5,20 @@ import Contact from "../organisms/Contact";
 function HomePage() {
   return (
     <div>
-      <Banner id="about"/>
-      <Projects id="projects" />
-      <Technologies id="technologies"/>
-      <Contact />
+      <div id="about">
+        <Banner />
+      </div>
+
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="technologies">
+        <Technologies />
+      </div>
+
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
