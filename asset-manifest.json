@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2024/static/css/main.db416c3f.css",
-    "main.js": "/portfolio-2024/static/js/main.730070d7.js",
+    "main.js": "/portfolio-2024/static/js/main.20189409.js",
     "static/media/app-miruta.png": "/portfolio-2024/static/media/app-miruta.5fd72ef7a96b4894a5c5.png",
     "static/media/project-portfolio-1.png": "/portfolio-2024/static/media/project-portfolio-1.3a9bca69142f0f71ab7f.png",
     "static/media/img-banner-v1.png": "/portfolio-2024/static/media/img-banner-v1.047c0f8b3cce9b3becce.png",
@@ -37,10 +37,10 @@
     "static/media/arrow-left.svg": "/portfolio-2024/static/media/arrow-left.71747f74f81ffe684cc1f46f7c4e0bf9.svg",
     "static/media/arrow-right.svg": "/portfolio-2024/static/media/arrow-right.5f49dae0f7c201387d5a7deb3868e207.svg",
     "main.db416c3f.css.map": "/portfolio-2024/static/css/main.db416c3f.css.map",
-    "main.730070d7.js.map": "/portfolio-2024/static/js/main.730070d7.js.map"
+    "main.20189409.js.map": "/portfolio-2024/static/js/main.20189409.js.map"
   },
   "entrypoints": [
     "static/css/main.db416c3f.css",
-    "static/js/main.730070d7.js"
+    "static/js/main.20189409.js"
   ]
 }
