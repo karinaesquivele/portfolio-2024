@@ -63,7 +63,7 @@ function Footer() {
         </div>
       </div>
       <div className="copyright__row">
-        <p>© 2024 Karina Esquivel </p>
+        <p>© 2025 Karina Esquivel </p>
       </div>
     </footer>
   );
