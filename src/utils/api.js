@@ -1,17 +1,17 @@
-import axios from "axios";
+//import axios from "axios";
 
-const API_URL = process.env.REACT_APP_API_KEY; // Reemplaza con tu URL de API
-const TOKEN = process.env.REACT_APP_API_TOKEN; // Asigna tu token aquí o recíbelo como argumento
+//const API_URL = process.env.REACT_APP_API_KEY; // Reemplaza con tu URL de API
+//const TOKEN = process.env.REACT_APP_API_TOKEN; // Asigna tu token aquí o recíbelo como argumento
 // Función para hacer una petición POST con token
 export const postFormData = async (data) => {
-    const dataFormat = {
+    /* const dataFormat = {
       "Nombre": data.nombre,
       "Email": data.email,
       "Mensaje": data.mensaje
   }
   
     try {
-      /* console.log(`POST request to: ${API_URL}`); */ // Verifica la URL
+      // console.log(`POST request to: ${API_URL}`); // Verifica la URL
       const response = await axios.post(
         `${API_URL}`,
         dataFormat,
@@ -26,7 +26,7 @@ export const postFormData = async (data) => {
     } catch (error) {
       console.error("Error al hacer la petición POST", error);
       throw error;
-    }
+    } */
   };
   
 

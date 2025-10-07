@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin"; 
 import { ScrollTrigger } from "gsap/ScrollTrigger"; // Importar ScrollTrigger
-import iconSend from "../../assets/img/icons/send.svg";
+import iconSend from "../../assets/img/icons/Send.svg";
 
 // Registrar los plugins
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);

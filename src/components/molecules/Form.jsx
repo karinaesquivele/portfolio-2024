@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "../atoms/Button";
 import FormValidator from "../../utils/validations";
-import { postFormData } from "../../utils/api";
+//import { postFormData } from "../../utils/api";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -10,7 +10,7 @@ function ContactForm() {
     mensaje: "",
   });
   const [errors, setErrors] = useState({});
-  const [responseMessage, setResponseMessage] = useState("");
+  const [responseMessage, /*setResponseMessage*/] = useState("");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -47,7 +47,7 @@ function ContactForm() {
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
     } else {
-      try {
+      /* try {
         await postFormData(formData);
         setResponseMessage("Formulario enviado con éxito!");
         setFormData({
@@ -61,7 +61,7 @@ function ContactForm() {
         setErrors({});
       } catch (error) {
         setResponseMessage("Hubo un error al enviar el formulario.");
-      }
+      } */
     }
   };
 
